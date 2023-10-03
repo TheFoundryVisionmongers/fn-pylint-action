@@ -1,6 +1,16 @@
 Changes
 =======
 
+v2.0.0
+------
+
+### Breaking changes
+
+- Replaced all action arguments with a single `pylint-args` option,
+  which takes a string of arbitrary command-line parameters to forward
+  on to `pylint`.
+  [#10](https://github.com/TheFoundryVisionmongers/fn-pylint-action/pull/10)
+
 v1.1.3
 ------
 
